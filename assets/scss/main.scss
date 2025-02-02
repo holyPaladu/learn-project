@@ -1,0 +1,9 @@
+// Импорт базовых стилей
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/global';
+
+// Импорт утилит
+@use 'utils/variables';
+@use 'utils/mixins';
+@use 'utils/functions';
