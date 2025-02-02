@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 // Медиа-запросы (mobile-first)
 @mixin respond-to($breakpoint) {
   @if map-has-key($breakpoints, $breakpoint) {
